@@ -11,8 +11,9 @@
     
   <project remote="yocto" revision="master" name="poky" path="sources/poky"/>
   <project remote="rockchip" revision="master" name="meta-rockchip" path="sources/meta-rockchip"/>
-  <project remote="rockchip" revision="morty" name="meta-rockchip-extra" path="sources/meta-rockchip-extra"/>
+  <project remote="rockchip" revision="master" name="meta-rockchip-extra" path="sources/meta-rockchip-extra"/>
  
+  <project remote="rockchip" revision="master" name="rkbin" path="rkbin"/>
   <project remote="rockchip" revision="yocto" name="build" path="sources/base">
         <copyfile dest="README" src="README"/>
         <copyfile dest="setup-environment" src="setup-environment"/>
@@ -20,5 +21,6 @@
 
   <project remote="oe" revision="master" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="QT5" revision="master" name="meta-qt5" path="sources/meta-qt5" />
-    
+  <project remote="OSSystems" revision="master" name="meta-browser" path="sources/meta-browser" />
+ 
   </manifest>
