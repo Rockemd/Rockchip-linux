@@ -9,8 +9,8 @@
   <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
   <remote fetch="git://github.com/koenkooi"  name="KODI"/>
     
-  <project remote="rockchip" revision="master" name="meta-rockchip" path="sources/meta-rockchip"/>
-  <project remote="rockchip" revision="master" name="meta-rockchip-extra" path="sources/meta-rockchip-extra"/>
+  <project remote="rockchip" revision="pyro" name="meta-rockchip" path="sources/meta-rockchip"/>
+  <project remote="rockchip" revision="pyro" name="meta-rockchip-extra" path="sources/meta-rockchip-extra"/>
  
   <project remote="rockchip" revision="master" name="rkbin" path="rkbin"/>
   <project remote="rockchip" revision="yocto" name="build" path="sources/base">
