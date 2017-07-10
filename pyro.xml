@@ -20,7 +20,6 @@
 
   <project remote="yocto" revision="pyro" name="poky" path="sources/poky"/>
   <project remote="oe" revision="pyro" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="QT5" revision="master" name="meta-qt5" path="sources/meta-qt5" />
-  <project remote="OSSystems" revision="master" name="meta-browser" path="sources/meta-browser" />
+  <project remote="QT5" revision="pyro" name="meta-qt5" path="sources/meta-qt5" />
  
   </manifest>
