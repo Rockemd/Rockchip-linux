@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <manifest>
+  <default sync-j="2" />
+
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="git://github.com/rockchip-linux" name="rockchip"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+  <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
+  <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
+  <remote fetch="git://github.com/koenkooi"  name="KODI"/>
+    
+  <project remote="rockchip" revision="rocko" name="meta-rockchip" path="sources/meta-rockchip"/>
+  <project remote="rockchip" revision="rocko" name="meta-rockchip-extra" path="sources/meta-rockchip-extra"/>
+ 
+  <project remote="rockchip" revision="master" name="rkbin" path="rkbin"/>
+  <project remote="rockchip" revision="yocto" name="build" path="sources/base">
+        <copyfile dest="README" src="README"/>
+        <copyfile dest="setup-environment" src="setup-environment"/>
+  </project>
+
+  <project remote="yocto" revision="rocko" name="poky" path="sources/poky"/>
+  <project remote="oe" revision="rocko" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="QT5" revision="rocko" name="meta-qt5" path="sources/meta-qt5" />
+  <project remote="OSSystems" revision="master" name="meta-browser" path="sources/meta-browser" />
+ 
+  </manifest>
